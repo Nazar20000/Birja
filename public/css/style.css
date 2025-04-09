@@ -1,0 +1,416 @@
+body.dark-mode,
+html.dark-mode {
+    background-color: #121212;
+}
+
+body.dark-mode .See-btn {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .See-counter {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .See-section {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .add-service-container {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .add-service-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .add-service-title {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .already-account {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .auth {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .blok-content {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .blok-line {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .burger {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .cont-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .content-img {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .dropdown-menu {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .edit-service-container {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .edit-service-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .edit-service-title {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .error-message {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .error-messages {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .error-text {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .fa-facebook {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .fa-instagram {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .fa-twitter {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .fab {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .field-container {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .field-input {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .field-label {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .field-textarea {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .foto-user {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .image-preview {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .like-btn {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .like-counter {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .like-section {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .login-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .logo {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .logotip {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .men {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .menu {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .mobile-menu {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .navigation {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .policy-checkbox {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .policy-label {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .radio-input {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .radio-label {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .register-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .response-message {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .role-label {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .role-selection {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .service-buttons {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .service-cost {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .service-details {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .service-item {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .service-name {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .services-container {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .services-filter {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .services-grid {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .services-header {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .services-title {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .settings-form {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .settings-title {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .settings-wrapper {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .social-icons {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .start {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .submit-btn {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .theme-toggle {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .upload-input {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .upload-label {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .user-menu {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

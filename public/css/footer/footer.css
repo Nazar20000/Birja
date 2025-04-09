@@ -1,0 +1,32 @@
+footer {
+    background-color: #222020; /* Темный фон */
+    color: #fff; /* Белый цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 20px 0; /* Отступы сверху и снизу */
+    margin-top: 50px; /* Отступ от контента */
+}
+
+footer a {
+    color: #fff; /* Белые ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+    margin: 0 15px; /* Отступы между ссылками */
+}
+
+footer a:hover {
+    color: #f39c12; /* Цвет при наведении */
+}
+
+footer .social-icons {
+    margin-top: 15px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px; /* Размер иконок */
+}
+
+footer .social-icons a:hover {
+    color: #f39c12; /* Цвет при наведении на иконки */
+}

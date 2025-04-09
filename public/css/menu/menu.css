@@ -1,0 +1,177 @@
+/* Reset and common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.foto-user {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+
+.menu {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.navigation {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.auth {
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.men {
+    font-size: 19px;
+    text-decoration: none;
+    color: #333;
+}
+
+.logotip {
+    max-width: 150px;
+}
+
+/* Гамбургер-меню */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px;
+    transition: 0.3s;
+}
+
+/* Мобильное меню скрыто по умолчанию */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 100px; /* Логотип больше на мобильных устройствах */
+        height: auto;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-between; /* Логотип слева, бургер справа */
+        align-items: center;
+        padding: 10px;
+        position: relative;
+        z-index: 1000; /* Логотип и бургер выше остальных элементов */
+    }
+
+    /* Отступ для логотипа, чтобы меню не накладывалось */
+    .logo {
+        padding-bottom: 20px; /* Добавляем отступ снизу, чтобы мобильное меню не перекрывало логотип */
+    }
+
+    .navigation, .auth {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        z-index: 1000;
+    }
+
+    .mobile-menu {
+        display: none; /* По умолчанию скрыто */
+        position: absolute;
+        top: 150px; /* Отступ от верхней части, чтобы не закрывало логотип */
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 500;
+    }
+
+    .mobile-menu.open {
+        display: flex; /* Показываем меню при добавлении класса active */
+    }
+     
+
+    .men {
+        padding: 10px 20px;
+        text-align: left;
+        font-size: 18px;
+        border-bottom: 1px solid #ccc;
+    }
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Скрытое меню */
+
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px; /* Отступ ниже изображения профиля */
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.dropdown-menu li {
+    padding: 5px 20px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f2f2f2;
+}
+
+.user-menu:hover .dropdown-menu {
+    display: block;
+}
+
+/* Для мобильных устройств отключаем выпадающее меню */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        display: none !important;
+    }
+}

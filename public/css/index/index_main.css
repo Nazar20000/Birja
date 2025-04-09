@@ -1,0 +1,88 @@
+main {
+    margin-top: 20px;
+}
+
+.blok-line {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+}
+
+.blok-content {
+    margin: 20px;
+    padding: 5%;
+}
+
+.container {
+    margin: 50px;
+}
+
+.start {
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 30px auto;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+
+.start:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Адаптация для планшетов (ширина до 1024px) */
+@media (max-width: 1024px) {
+    .blok-line {
+        flex-direction: column; /* Колонки станут вертикальными */
+        align-items: center; /* Выравнивание по центру */
+    }
+
+    .content-img {
+        width: 300px; /* Уменьшаем изображение */
+        height: 300px;
+    }
+
+    .blok-content {
+        padding: 3%;
+        margin: 15px;
+    }
+
+    .container {
+        margin: 20px;
+    }
+}
+
+/* Адаптация для мобильных устройств (ширина до 768px) */
+@media (max-width: 768px) {
+    .blok-line {
+        flex-direction: column; /* Вертикальная структура */
+        align-items: center;
+        margin-top: 20px; /* Увеличенный отступ сверху */
+    }
+
+    .content-img {
+        width: 250px; /* Еще меньшее изображение */
+        height: 250px;
+    }
+
+    .blok-content {
+        padding: 2%;
+        margin: 10px;
+        text-align: center; /* Текст выравнивается по центру */
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .start {
+        font-size: 16px; /* Уменьшаем шрифт */
+        padding: 8px 20px; /* Меньшие отступы */
+        margin: 20px auto; /* Центральное выравнивание */
+    }
+}

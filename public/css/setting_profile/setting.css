@@ -1,0 +1,104 @@
+.settings-wrapper {
+    max-width: 700px;
+    width: 100%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.settings-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.field-container {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.field-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.field-input,
+.field-textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.field-input:focus,
+.field-textarea:focus {
+    border-color: #34a853;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52,168,83,0.2);
+}
+
+.image-preview {
+    display: block;
+    margin-top: 15px;
+    max-width: 150px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.btn-save-changes {
+    width: 100%;
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn-save-changes:hover {
+    opacity: 0.9;
+}
+
+.response-message {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    color: #155724;
+    background-color: #d4edda;
+    border-radius: 6px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    .settings-wrapper {
+        width: 95%;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .settings-title {
+        font-size: 1.6rem;
+    }
+
+    .field-input,
+    .field-textarea {
+        padding: 8px 10px;
+        font-size: 0.95rem;
+    }
+
+    .image-preview {
+        max-width: 100px;
+    }
+}

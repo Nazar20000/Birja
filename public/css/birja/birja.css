@@ -1,0 +1,71 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.header {
+    font-size: 24px;
+    color: #1e8a00;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.budget {
+    color: #1e8a00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.details, .remaining-time {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+.description {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+.banner-sizes {
+    margin: 10px 0;
+    list-style: none;
+    padding: 0;
+}
+.banner-sizes li {
+    margin-bottom: 5px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.profile-info {
+    font-size: 14px;
+}
+.profile-info a {
+    font-weight: bold;
+    color: #0073e6;
+    text-decoration: none;
+}
+.profile-info a:hover {
+    text-decoration: underline;
+}
+.status {
+    font-size: 12px;
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+}

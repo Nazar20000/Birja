@@ -1,0 +1,169 @@
+/* Общие стили для центрирования и фона */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Контейнер формы */
+.container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-project h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Стили для формы */
+.info-form .form-group {
+    margin-bottom: 15px;
+}
+
+.info-form input[type="text"],
+.info-form textarea,
+.info-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.info-form input[type="text"]:focus,
+.info-form textarea:focus,
+.info-form input[type="file"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.info-form label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Текстовое поле */
+.info-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Стили для кнопки */
+.info-form .btn-info {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-form .btn-info:hover {
+    background-color: #45a049;
+}
+
+/* Стили для поля загрузки файлов */
+.img-project {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Улучшение пользовательского интерфейса */
+.info-form input[type="text"]::placeholder,
+.info-form textarea::placeholder {
+    color: #aaa;
+}
+
+/* Основные стили для main, container, info-project, info-form остаются прежними */
+
+.info-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.info-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.info-form input[type="text"],
+.info-form input[type="date"],
+.info-form input[type="number"],
+.info-form textarea,
+.info-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.info-form textarea {
+    min-height: 100px;
+}
+
+.info-form input:focus,
+.info-form select:focus,
+.info-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.info-form .btn-info {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-form .btn-info:hover {
+    background-color: #45a049;
+}
+
+.image-preview {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    max-height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
