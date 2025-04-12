@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Index\IndexController;
 use App\Http\Controllers\Auth\RegisterController;
@@ -84,8 +85,4 @@ Route::middleware(['auth', 'auth.session'])->group(function () {
 |--------------------------------------------------------------------------
 */
 
-Route::middleware(['auth'])->group(function () {
-    Route::get('/admin', [AdminController::class, 'index'])
-        ->middleware('can:isAdmin')
-        ->name('admin.dashboard');
-});
+Route::get('/admin', [AdminController::class, 'index'])->middleware('can:isAdmin')->name('admin.dashboard');
