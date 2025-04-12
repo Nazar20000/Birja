@@ -77,3 +77,15 @@ Route::middleware(['auth', 'auth.session'])->group(function () {
         return redirect('/');
     })->name('lagout');
 });
+
+/*
+|--------------------------------------------------------------------------
+| Маршруты для авторизованных admin
+|--------------------------------------------------------------------------
+*/
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])
+        ->middleware('can:isAdmin')
+        ->name('admin.dashboard');
+});
