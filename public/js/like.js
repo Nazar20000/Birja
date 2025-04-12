@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const likeButtons = document.querySelectorAll('.like-btn');
-    
+
     likeButtons.forEach(button => {
-        button.addEventListener('click', () => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
             const serviceId = button.dataset.serviceId;
 
             fetch(`/freelancer/my-uslug/usluge/${serviceId}`, {
@@ -16,9 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(response => response.json())
             .then(data => {
                 const likeCounterElement = button.querySelector('.like-counter');
-                
                 if (likeCounterElement) {
-                    likeCounterElement.innerText = data.likes; // Обновляем количество лайков
+                    likeCounterElement.innerText = data.likes;
                 }
             })
             .catch(error => console.error('Error:', error));

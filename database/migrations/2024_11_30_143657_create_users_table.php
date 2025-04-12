@@ -18,6 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('password'); // Пароль
             $table->string('role')->default('client'); // Роль (по умолчанию клиент)
             $table->string('profile_foto')->nullable(); // Фото профиля
+            $table->text('bio')->nullable(); // просто добавь без ->after()
             $table->string('many')->nullable();
             $table->timestamp('email_verified_at')->nullable(); // Время подтверждения email
             $table->rememberToken(); // Токен для запоминания сессий

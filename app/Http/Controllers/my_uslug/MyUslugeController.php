@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Auth;
 
 class MyUslugeController extends Controller
 {
+    public function show($id)
+    {
+        $service = Service::with('user')->findOrFail($id);
+        return view('freelancer.my_uslug.show_usluge.show', compact('service'));
+    }
     public function usluge(Request $request)
     {
         $query = Auth::user()->services();

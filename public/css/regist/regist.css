@@ -1,13 +1,3 @@
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(30vh - 30px); /* Учитываем высоту меню */
-    background-color: #f8f9fa;
-    padding: 10px; /* Добавляем отступ сверху для меню */
-}
-
 .error-message{
     color: red;
 }

@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="/css/usluge/uslug.css">
     <link rel="stylesheet" href="/css/usluge/add.css">
+    <link rel="stylesheet" href="/css/usluge/show.css">
     <link rel="stylesheet" href="/css/usluge/create_usluge.css">
 
     <link rel="stylesheet" href="/css/setting_profile/setting.css">

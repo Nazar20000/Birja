@@ -3,22 +3,21 @@
     padding: 0;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(30vh - 30px); /* Учитываем высоту меню */
+    background-color: #f5f6f8;
+    padding: 10px; /* Добавляем отступ сверху для меню */
+}
+
 .error-messages {
     color: red;
     margin-bottom: 10px;
 }
 .error-text {
     font-size: 14px;
-}
-
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(30vh - 30px); /* Учитываем высоту меню */
-    background-color: #f8f9fa;
-    padding: 10px; /* Добавляем отступ сверху для меню */
 }
 
 .cont-form {

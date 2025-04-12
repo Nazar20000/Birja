@@ -14,7 +14,7 @@
 
         <div class="field-container">
             <label for="photoInput" class="field-label">Фото профиля:</label>
-            <input type="file" id="photoInput" class="field-input" name="photo" accept="image/*" onchange="previewImage(event)">
+            <input type="file" id="photoInput" class="field-input" name="profile_foto" accept="image/*" onchange="previewImage(event)">
 
             @if($user->profile_foto)
                 <img id="photoPreview" src="{{ asset('resources/uploads/' . $user->profile_foto) }}" alt="Предпросмотр" class="image-preview">
@@ -25,7 +25,7 @@
 
         <div class="field-container">
             <label for="fullName" class="field-label">Имя:</label>
-            <input type="text" id="fullName" name="fullName" class="field-input" required value="{{ $user->name }}">
+            <input type="text" id="fullName" name="name" class="field-input" required value="{{ $user->name }}">
         </div>
 
         <div class="field-container">
@@ -35,7 +35,7 @@
 
         <div class="field-container">
             <label for="aboutUser" class="field-label">Информация о себе:</label>
-            <textarea id="aboutUser" name="aboutUser" class="field-textarea" rows="4" required>{{ $user->bio }}</textarea>
+            <textarea id="aboutUser" name="bio" class="field-textarea" rows="4" required>{{ $user->bio }}</textarea>
         </div>
 
         <div class="field-container">

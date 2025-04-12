@@ -5,7 +5,7 @@
         </div>
 
         <nav class="navigation">
-            <a class="men" href="../freelancer/freelancer.php">Исполнители</a>
+            <a class="men" href="{{ Route('client.work.client') }}">Исполнители</a>
             <a class="men" href="../projekt/projekt.php">Проекты</a>
             <a class="men" href="../birja/birja.php">Биржа</a>
             <a class="men" href="../balanc/balanc.php">Баланс</a>
@@ -65,7 +65,7 @@
         @endif
     </a>
 
-    <a class="men" href="../view/freelancer/freelancer.php">Исполнители</a>
+    <a class="men" href="{{ Route('client.work.client') }}">Исполнители</a>
     <a class="men" href="../view/projekt/projekt.php">Проекты</a>
     <a class="men" href="../birja/birja.php">Биржа</a>
     <a class="men" href="../message/message.php">Чат</a>
